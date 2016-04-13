@@ -1,0 +1,30 @@
+## Faster way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+## Better listing ##
+alias ll="ls -lhA"
+
+## Disk usage ##
+alias dfsys="df -Tha --total"
+
+## Search process ##
+# example:
+# psg bash
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+## Get my public IP ##
+alias myip="curl http://ipecho.net/plain; echo"
+
+## Memory info ##
+alias meminfo="free -m -l -t"
+
+## Show applications which are connecting to the network ##
+lsof -P -i -n
+
+## Donwload a website ##
+alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
