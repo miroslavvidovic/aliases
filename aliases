@@ -1,3 +1,7 @@
+#############################################################################
+#  aliases
+#############################################################################
+
 ## Faster way to get out of current directory ##
 alias ..='cd ../'
 alias ...='cd ../../'
@@ -36,7 +40,19 @@ alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
 location=Zvornik
 alias wtr="curl wttr.in/$location"
 
+## Firefox developer editon ##
+alias f-dev="/opt/firefox-dev/firefox"
+
 ## List of directories added to path ##
 alias mypath="echo $PATH | tr : '\n' | sort"
+
+## Firefox redirect errors
+alias ff="firefox &> /dev/null 2>&1"
+
+## Firefox open localhost
+alias ffl="firefox &> /dev/null 2>&1 localhost/"
+
+## xdg-open will be just open
+alias open="xdg-open"
 
 
