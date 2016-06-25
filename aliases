@@ -55,4 +55,20 @@ alias ffl="firefox &> /dev/null 2>&1 localhost/"
 ## xdg-open will be just open
 alias open="xdg-open"
 
+## No more typo
+alias sl="ls"
+
+## Vim
+alias vi="vim"
+
+## Atom currend dir
+alias ah="atom ."
+
+## Shutdown aliases
+alias shnow="shutdown -h now"
+alias shmidnight="shutdown -h 00:00"
+
+## Vim wiki notes
+alias vinote="vim ~/vimwiki/index.wiki"
+
 
