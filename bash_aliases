@@ -74,4 +74,13 @@ alias viwiki="vim ~/vimwiki/index.wiki"
 ## Go to vimode
 alias vimode="set -o vi"
 
+## Info about items in the current dir
+alias fsize="du -sh *"
+alias dud='du -d 1 -h | sort -h'
 
+## Find aliases
+alias fid='find . -type d -name'
+alias fif='find . -type f -name'
+
+## Start all together
+alias fotk='{ nohup firefox & nohup opera & nohup thunderbird & nohup keepassx & } > /dev/null 2>&1'
