@@ -87,3 +87,6 @@ alias fotk='{ nohup firefox & nohup opera & nohup thunderbird & nohup keepassx &
 
 ## Check the battery status
 alias bat='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "state|to\ full|percentage"'
+
+## Wifi status
+alias wifi="wifi.sh"
