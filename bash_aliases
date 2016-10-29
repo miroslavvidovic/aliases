@@ -38,7 +38,10 @@ alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
 
 ## Check the current weather ##
 location=Zvornik
-alias wtr="curl wttr.in/$location"
+alias weather-3="curl wttr.in/$location"
+# Ansiweather app
+alias weather-now="ansiweather -l Zvornik,BA -a false"
+alias weather-7="ansiweather -l Zvornik,BA -a false -f 7"
 
 ## Firefox developer editon ##
 alias f-dev="/opt/firefox-dev/firefox"
@@ -60,6 +63,7 @@ alias sl="ls"
 
 ## Vim
 alias vi="vim"
+alias svi="sudo vim"
 
 ## Atom currend dir
 alias ah="atom ."
@@ -84,3 +88,12 @@ alias fif='find . -type f -name'
 
 ## Start all together
 alias fotk='{ nohup firefox & nohup opera & nohup thunderbird & nohup keepassx & } > /dev/null 2>&1'
+
+## StarDict dictionary (sdcv is not user friendly)
+alias dictionary='sdcv'
+
+## thefuck command  https://github.com/nvbn/thefuck
+alias foo='eval $(thefuck $(fc -ln -1)); history -r'
+
+## CakePHP via composer
+alias newcake='my_composer.sh create-project --prefer-dist cakephp/app' 
