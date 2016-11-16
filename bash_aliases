@@ -97,3 +97,6 @@ alias foo='eval $(thefuck $(fc -ln -1)); history -r'
 
 ## CakePHP via composer
 alias newcake='my_composer.sh create-project --prefer-dist cakephp/app' 
+
+## Update and upgrade
+alias upup='sudo apt update; sudo apt upgrade'
