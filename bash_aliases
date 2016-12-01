@@ -24,8 +24,10 @@ alias dfsys="df -Tha --total"
 # psg bash
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 
-## Get my public IP ##
-alias myip="curl http://ipecho.net/plain; echo"
+## Get my public IP  address ##
+alias ip_public="curl http://ipecho.net/plain; echo"
+## Get my_local IP address ##
+alias ip_local="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
 
 ## Memory info ##
 alias meminfo="free -m -l -t"
@@ -97,6 +99,3 @@ alias foo='eval $(thefuck $(fc -ln -1)); history -r'
 
 ## CakePHP via composer
 alias newcake='my_composer.sh create-project --prefer-dist cakephp/app' 
-
-## Update and upgrade
-alias upup='sudo apt update; sudo apt upgrade'
