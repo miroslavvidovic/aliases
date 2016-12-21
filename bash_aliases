@@ -79,6 +79,8 @@ alias viwiki="vim ~/vimwiki/index.wiki"
 
 ## Go to vimode
 alias vimode="set -o vi"
+## Go to default mode(default mode is emacs)
+alias nomode="set -o emacs"
 
 ## Info about items in the current dir
 alias fsize="du -sh *"
