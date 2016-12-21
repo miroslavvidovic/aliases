@@ -13,6 +13,12 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 
+## Faster way to clear the screen
+alias c="clear"
+
+## Jobs listing
+alias j="jobs -l"
+
 ## Better listing ##
 alias ll="ls -lhA"
 
