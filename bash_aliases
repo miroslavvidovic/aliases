@@ -21,6 +21,7 @@ alias j="jobs -l"
 
 ## Better listing ##
 alias ll="ls -lhA"
+alias lq="la -alQ"
 
 ## Disk usage ##
 alias dfsys="df -Tha --total"
@@ -110,3 +111,8 @@ alias newcake='my_composer.sh create-project --prefer-dist cakephp/app'
 
 ## History sync - manually append to history when you have multiple terminal instances
 alias hs='history -a ; history -n'
+
+## Emacs
+alias ems='emacs --daemon'
+alias emc='emacsclient -c &> /dev/null 2>&1'
+alias emt='emacsclient -t '
