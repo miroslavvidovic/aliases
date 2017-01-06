@@ -116,3 +116,6 @@ alias hs='history -a ; history -n'
 alias ems='emacs --daemon'
 alias emc='emacsclient -c &> /dev/null 2>&1'
 alias emt='emacsclient -t '
+
+## Update
+alias updg='sudo apt update -y && sudo apt upgrade -y'
