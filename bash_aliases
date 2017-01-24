@@ -66,6 +66,7 @@ alias ffl="firefox &> /dev/null 2>&1 localhost/"
 
 ## xdg-open will be just open
 alias open="xdg-open"
+alias o="xdg-open"
 
 ## No more typo
 alias sl="ls"
