@@ -120,3 +120,7 @@ alias emt='emacsclient -t '
 
 ## Update
 alias updg='sudo apt update -y && sudo apt upgrade -y'
+
+## Open (neo)vimrc
+alias vimconf='vim ~/.vimrc'
+alias nvimconf='vim ~/.config/nvim/init.vim'
