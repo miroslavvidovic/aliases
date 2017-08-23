@@ -124,3 +124,11 @@ alias updg='sudo apt update -y && sudo apt upgrade -y'
 ## Open (neo)vimrc
 alias vimconf='vim ~/.vimrc'
 alias nvimconf='vim ~/.config/nvim/init.vim'
+
+## Clipboard
+## needs xclip
+alias cclip="xclip -selection clipboard"
+alias clipp="xclip -selection clipboard -o"
+
+## Tmux
+alias tns="tmux new-session -s"
