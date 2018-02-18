@@ -22,6 +22,8 @@ alias j="jobs -l"
 ## Better listing ##
 alias ll="ls -lhA"
 alias lq="la -alQ"
+alias la='ls -A'
+alias l='ls -CF'
 
 ## Disk usage ##
 alias dfsys="df -Tha --total"
