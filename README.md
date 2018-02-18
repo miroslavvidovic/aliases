@@ -4,7 +4,7 @@
 
 <img src="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Pointer-2-icon.png" height="250px" width="250px">
 
-##### A collection of useful aliases
+#### A collection of great alias commands
 
 </div>
 
