@@ -135,5 +135,6 @@ alias clipp="xclip -selection clipboard -o"
 ## Tmux
 alias tns="tmux new-session -s"
 
-## git-open alternative
-alias gopen="xdg-open $(git remote get-url origin)"
+## Git
+## git remote repo url
+alias gorigin="git remote get-url origin"
