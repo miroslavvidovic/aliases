@@ -1,6 +1,6 @@
 <div align="center">
 
-# my-books
+# aliases
 
 <img src="http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Pointer-2-icon.png" height="200px" width="200px">
 
