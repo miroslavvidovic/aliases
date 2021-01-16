@@ -80,6 +80,9 @@ alias svi="sudo vim"
 ## Atom currend dir
 alias ah="atom ."
 
+## VS Code
+alias ch="ch ."
+
 ## Shutdown aliases
 alias shnow="shutdown -h now"
 alias shmidnight="shutdown -h 00:00"
@@ -138,3 +141,6 @@ alias tns="tmux new-session -s"
 ## Git
 ## git remote repo url
 alias gorigin="git remote get-url origin"
+
+## youtube-dl
+alias ytd="youtube-dl -x --audio-format mp3"
