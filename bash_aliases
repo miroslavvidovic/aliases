@@ -81,7 +81,7 @@ alias svi="sudo vim"
 alias ah="atom ."
 
 ## VS Code
-alias ch="ch ."
+alias ch="code ."
 
 ## Shutdown aliases
 alias shnow="shutdown -h now"
